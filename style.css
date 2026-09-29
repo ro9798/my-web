@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ffe3ec;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='240' viewBox='0 0 280 240'%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.15' transform='translate(24 24) scale(1.15)'/%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.12' transform='translate(116 18) scale(.7)'/%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.14' transform='translate(205 38) scale(1.45)'/%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.1' transform='translate(72 118) scale(1.7)'/%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.14' transform='translate(178 136) scale(.8)'/%3E%3Cpath d='M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z' fill='%23e64980' opacity='.11' transform='translate(14 190) scale(.9)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 280px 240px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.non {
+  padding: 2.4rem 1.6rem 1.2rem;
+  color: #c2255c;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container {
+  min-height: calc(100vh - 11rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-img {
+  width: 30rem;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3.6rem;
+  color: #f53699;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn--yes {
+  background-color: #40c057;
+}
+
+.btn--no {
+  background-color: #f03e3e;
+}
+
+.hidden {
+  display: none;
+}
